@@ -24,8 +24,8 @@ docker compose up -d
 
 ## Architecture
 
-*Diagram coming — Phase 11.*
+_Diagram coming — Phase 11._
 
 ## Decision log
 
-*Decisions logged as the project evolves.*
+_Decisions logged as the project evolves._

@@ -8,11 +8,11 @@ services:
       POSTGRES_USER: jat_user
       POSTGRES_PASSWORD: jat_local_dev
     ports:
-      - "5433:5432"
+      - '5433:5432'
     volumes:
       - jat_postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: [ "CMD-SHELL", "pg_isready -U jat_user -d jat_dev" ]
+      test: ['CMD-SHELL', 'pg_isready -U jat_user -d jat_dev']
       interval: 5s
       timeout: 5s
       retries: 10
