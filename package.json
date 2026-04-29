@@ -1,0 +1,31 @@
+{
+	"name": "jat-api",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Job Application Tracker — API",
+	"license": "MIT",
+	"type": "module",
+	"engines": {
+		"node": ">=22.0.0",
+		"pnpm": ">=10.0.0"
+	},
+	"packageManager": "pnpm@10.11.0",
+	"scripts": {
+		"dev": "echo 'TODO: phase 2'",
+		"build": "echo 'TODO: phase 2'",
+		"start": "echo 'TODO: phase 2'",
+		"lint": "eslint .",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"volta": {
+		"node": "22.22.2"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.2.1",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "^3.8.3",
+		"typescript-eslint": "^8.59.1"
+	}
+}
