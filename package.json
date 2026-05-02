@@ -12,17 +12,20 @@
   "packageManager": "pnpm@10.11.0",
   "scripts": {
     "dev": "echo 'TODO: phase 2'",
-    "build": "echo 'TODO: phase 2'",
+    "build": "tsc",
     "start": "echo 'TODO: phase 2'",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx src/db/migrate.ts"
   },
   "volta": {
     "node": "22.22.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/node": "^25.6.0",
     "@types/uuid": "^11.0.0",
     "drizzle-kit": "^0.31.10",
     "eslint": "^10.2.1",
